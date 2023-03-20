@@ -1,0 +1,29 @@
+/*
+Plugin Name: Elementor Form Email
+Plugin URI: https://www.example.com/
+Description: A plugin that adds a form to Elementor pages and sends an email to the admin email.
+Version: 1.0.0
+Author: Your Name
+Author URI: https://www.example.com/
+*/
+
+.contactus_form label {
+	letter-spacing: 0.16px;
+	color: #304c5e;
+}
+.contactus_form input {
+	background-color: transparent;
+}
+.formsubmit_btn {
+	min-width: 140px;
+	background-color: #c59b77 !important;
+	border: 1px solid #c59b77 !important;
+	margin-top: 30px;
+	min-height: 40px;
+	border-radius: 0 !important;
+	font-size: 16px !important;
+}
+.formsubmit_btn:hover {
+	background-color: #b18c6c !important;
+	border: 1px solid #b18c6c !important;
+}
